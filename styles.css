@@ -1,0 +1,1648 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+body {
+    padding-left: 8vw;
+    padding-right: 8vw;
+    font-family: 'Poppins';
+    overflow-x: hidden;
+}
+
+
+nav {
+    width: 100vw;
+    height: 120px;
+    background: white;
+    position: fixed;
+}
+
+.navbar-brand {
+    margin-left: 5vw;
+}
+
+.nav-link {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    text-align: left;
+    margin-right: 10px;
+
+}
+
+#navv a:hover {
+    color: #054F8C;
+    font-weight: 800;
+
+}
+
+.btnn {
+    width: 30px;
+    height: 30px;
+    background: none;
+    border: none;
+    margin-right: 2vw;
+}
+
+
+
+.btnn2 {
+    width: 50px;
+    height: 50px;
+    background: none;
+    border: none;
+    padding-bottom: 10px;
+    margin-left: 1.5vw;
+
+}
+
+.btnn2 img {
+
+    width: 40px;
+    height: 40px;
+    margin-top: -10px;
+
+}
+
+#conn {
+    margin-right: 5vw;
+}
+
+.home {
+    height: 960px;
+    width: 100vw;
+    background-image: url(pics/Rectangle\ 617.png);
+    background-size: cover;
+    margin-left: -8vw;
+}
+
+.smoke {
+    width: 100vw;
+    height: 634px;
+    top: 325px;
+    left: -10px;
+    position: absolute;
+
+}
+
+.rect {
+    top: 942px;
+    position: absolute;
+    height: 17px;
+    width: 100vw;
+}
+
+.rect2 {
+    width: 1440px;
+    height: 960px;
+    position: absolute;
+}
+
+.worker {
+    width: 784px;
+    height: 784px;
+    top: 154px;
+    left: 672px;
+    position: absolute;
+
+}
+
+.home h2 {
+    width: clamp(10px, 86vw, 808px);
+    height: 180px;
+    top: 232px;
+    left: clamp(10px, 13vw, 90px);
+    font-family: Poppins;
+    font-size: clamp(10px, 10vw, 64px);
+    font-weight: 600;
+    line-height: clamp(10px, 13vw, 90px);
+    text-align: left;
+    color: #FFFFFF;
+    position: absolute;
+}
+
+.home h5 {
+    width: 642px;
+    height: 180px;
+    top: 430px;
+    left: 90px;
+
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: left;
+    color: #FFFFFF;
+    position: absolute;
+}
+
+.home button {
+    width: 180px;
+    height: 57px;
+    top: 630px;
+    left: 90px;
+    padding: -2px 21px 15px 5px;
+    gap: 10px;
+    position: absolute;
+
+    background: #054F8C;
+    border: 1px solid #ffffffc7;
+    color: #ffffff;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 17px;
+    text-align: center;
+}
+
+.phto img{
+    box-shadow: 8px 8px 9px 0px rgba(0, 0, 0, 0.21);
+}
+
+.about {
+    width: 60vw;
+    height: 818px;
+    position: relative;
+
+}
+
+.aboutcontainer {
+    width: 1239px;
+    height: 725.41px;
+    top: 67px;
+    left: -40px;
+    gap: 30px;
+    flex-direction: row;
+    position: absolute;
+}
+
+.abcon {
+    margin: 40px 0px;
+    gap: 24px;
+}
+
+.abcon h3 {
+    width: 160px;
+    height: 50px;
+    padding: 10px 16px 10px 16px;
+    gap: 10px;
+    border-radius: 33px;
+
+    background: #CE75281A;
+    color: #DB9A26;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center;
+
+
+}
+
+.abcon h2 {
+    width: clamp(10px, 80vw, 666px);
+    height: 144px;
+    font-family: Poppins;
+    font-size: clamp(10px, 8vw, 48px);
+    font-weight: 600;
+    line-height: clamp(5px, 13vw, 72px);
+    text-align: left;
+
+}
+
+.abcon h2 span {
+    color: #DB9A26;
+}
+
+.abcon h4 {
+    width: 660px;
+    height: 100px;
+
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: left;
+    color: #8E8D8D;
+
+}
+
+.abcards {
+    width: 697px;
+    height: 176px;
+    gap: 54px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 60px;
+}
+
+.abcard {
+    width: 270px;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+}
+
+.abcard4 {
+    width: 314px;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+}
+
+.abcard h5,
+.abcard4 h5 {
+    width: 450px;
+    height: 30px;
+    margin-top: 20px;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.socmed {
+    width: 77px;
+    height: 242px;
+    top: 189px;
+    left: 1233px;
+    padding: 24px 16px 30px 16px;
+    gap: 10px;
+    border-radius: 10px;
+    border: 1px;
+    box-shadow: 10px 10px 8px 0px rgba(0,0,0,0.31);
+    background: linear-gradient(146.75deg, rgba(183, 183, 183, 0.32) 19.8%, rgba(255, 255, 255, 0.32) 100.95%);
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+}
+
+.socmed img {
+    width: clamp(5px, 9.5vw, 45px);
+}
+
+.proj {
+    height: 904px;
+    width: 100vw;
+    padding: 8vw;
+    gap: 25px;
+    position: relative;
+    margin-left: -8vw;
+
+}
+
+.proj h3 {
+
+    width: 160px;
+    height: 50px;
+    padding: 10px 16px 10px 16px;
+    gap: 10px;
+    border-radius: 33px;
+
+    background: #CE75281A;
+    color: #DB9A26;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.bgimg {
+    height: 50%;
+    width: 100vw;
+    margin: -50px -8vw;
+    position: absolute;
+
+}
+
+.proj h2 {
+    width: 505px;
+    height: 72px;
+
+    font-family: Poppins;
+    font-size: clamp(5px, 8vw, 48px);
+    font-weight: 600;
+    line-height: 72px;
+    text-align: left;
+
+}
+
+.proj h2 span {
+    color: #DB9A26;
+}
+
+.pcards {
+    overflow-x: clip;
+    height: 563px;
+    gap: 21px;
+
+
+}
+
+.pcard {
+    width: 366px;
+    height: 563px;
+    padding: 16px 16px 42px 16px;
+    gap: 14px;
+    border-radius: 10px;
+    border: 1px solid #ACABAB;
+
+
+}
+
+.pcardimg {
+    width: 100%;
+    height: 265px;
+
+    border-radius: 6px;
+
+}
+
+.pcardcon {
+    width: 366px;
+    height: 216px;
+    gap: 16px;
+
+
+}
+
+.pcardcon h2 {
+    width: 305px;
+    height: 36px;
+    font-family: Poppins;
+    font-size: clamp(5px, 5.5vw, 24px);
+    font-weight: 500;
+    line-height: 36px;
+    text-align: left;
+}
+
+.loc {
+    gap: 5px;
+}
+
+.loc img {
+    width: 14px;
+    height: 20px;
+
+
+}
+
+.loc h5 {
+    width: 185px;
+    height: 24px;
+
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    color: #8E8D8D;
+}
+
+.line {
+    width: 333px;
+    height: 1px;
+}
+
+.pcardcon h4 {
+    width: 366px;
+    height: 120px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: #6e6e6e;
+}
+
+.services {
+    width: 100vw;
+    height: 653px;
+    align-items: center;
+
+
+    gap: 25px;
+    margin-left: -8vw;
+}
+
+.sh2 {
+    width: 176px;
+    height: 50px;
+    top: 53px;
+    left: 632px;
+    padding: 10px 16px 10px 16px;
+    gap: 10px;
+    border-radius: 33px;
+
+    background: #EC92221A;
+    color: #DB9A26;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center;
+
+
+}
+
+.services h3 {
+    width: 504px;
+    height: 72px;
+    top: 115px;
+    left: 493px;
+
+    font-family: Poppins;
+    font-size: clamp(5px, 8vw, 48px);
+    font-weight: 600;
+    line-height: 72px;
+    text-align: center;
+
+}
+
+.services h3 span {
+    color: #DB9A26;
+}
+
+.scards {
+    width: 1260px;
+    height: 393px;
+    gap: 20px;
+}
+
+.scard {
+    width: 300px;
+    height: 393px;
+    padding: 36px 24px 36px 24px;
+    gap: 16px;
+    box-shadow: 8px 8px 9px 0px rgba(0,0,0,0.21);
+    background: #F4F4F4;
+
+}
+
+.scard img {
+    width: 75px;
+    height: 75px;
+    gap: 10px;
+    border-radius: 55px;
+
+
+}
+
+.scard h2 {
+    width: 157px;
+    height: 36px;
+
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    text-align: left;
+
+}
+
+.scard h3 {
+    width: 252px;
+    height: 180px;
+
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: #6e6e6e;
+}
+
+.why {
+    height: 1033px;
+    width: 100vw;
+    margin-left: -8vw;
+    align-items: center;
+    padding-top: 20px;
+    gap: 20px;
+    position: relative;
+}
+
+.whytxt {
+    gap: 3rem;
+}
+
+.wh2 {
+    width: 126px;
+    height: 50px;
+
+    padding: 10px 16px 10px 16px;
+    gap: 10px;
+    border-radius: 33px;
+
+    background: #EC92221A;
+    color: #DB9A26;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center;
+
+}
+
+.why h4 {
+    width: 866px;
+    height: 144px;
+
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: clamp(10px, 12vw, 72px);
+    text-align: center;
+
+}
+
+.why h4 span {
+    color: #DB9A26;
+}
+
+.wcard {
+    width: 597px;
+    height: 142px;
+    gap: 6px;
+
+
+}
+
+.whycon {
+    width: 90vw;
+    justify-content: end;
+}
+
+.wcard img {
+    width: 30px;
+    height: 30px;
+    margin-top: 5px;
+
+}
+
+
+.wcard h2 {
+    width: 352px;
+    height: 36px;
+
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    text-align: left;
+    color: #4F4F4F;
+
+}
+
+.wcard h3 {
+    width: 597px;
+    height: 100px;
+    padding: 0px 42px 0px 42px;
+    gap: 10px;
+
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: left;
+    color: #7F7F7F;
+
+}
+
+.wcardtitle {
+    gap: 10px;
+}
+
+.ph1 {
+    top: 347px;
+    left: 50px;
+    position: absolute;
+    width: 555.37px;
+    height: 677.7px;
+    transition: .5s ease-in-out;
+}
+
+.ph2 {
+    width: 555.37px;
+    height: 677.7px;
+    top: 300px;
+    left: 106px;
+    position: absolute;
+    transition: .5s ease-in-out;
+}
+
+.ph3 {
+    top: 347px;
+    left: 50px;
+    position: absolute;
+    width: 555.37px;
+    height: 677.7px;
+    transition: .5s ease-in-out;
+    display: none;
+}
+
+
+.conpage {
+    height: 849px;
+    position: relative;
+    margin-top: 60px;
+}
+
+.bgcon {
+    position: absolute;
+    height: 100%;
+    width: 100vw;
+    margin-left: -8vw;
+}
+
+.contact {
+    padding: 40px 40px;
+    width: 633px;
+    height: 556px;
+    top: 135px;
+    left: 522px;
+    position: absolute;
+    background-color: #f4f4f4;
+}
+
+.contact h5 {
+    width: 236px;
+    height: 63px;
+    font-family: Poppins;
+    font-size: clamp(5px, 10vw, 42px);
+    font-weight: 500;
+    line-height: 63px;
+    text-align: left;
+
+}
+
+.contact h5 span {
+    color: #DB9A26;
+}
+
+.textarea {
+    width: 267px;
+    height: 54px;
+    background: url(pics/Group\ 5104.png) no-repeat;
+    background-position: 7px 50%;
+    background-size: 25px;
+    padding-left: 40px;
+    gap: 10px;
+    font-family: Poppins;
+    background-color: white;
+    border: 1px solid #ACABAB;
+}
+
+#phone {
+    background: url(pics/Group\ 5105.png) no-repeat;
+    background-position: 7px 50%;
+    background-size: 25px;
+    padding-left: 40px;
+    gap: 10px;
+    font-family: Poppins;
+    background-color: white;
+    border: 1px solid #ACABAB;
+}
+
+.textarea2 {
+    width: 100%;
+    height: 211px;
+    background: url(pics/Group\ 5106.png) no-repeat;
+    background-position: 7px 15px;
+    background-size: 25px;
+    background-color: #FFFFFF;
+    border: 1px solid #ACABAB;
+    padding: 15px 40px;
+    gap: 10px;
+    text-align: left;
+    font-family: Poppins;
+
+
+}
+
+.contact button {
+    width: 212px;
+    height: 57px;
+    top: 468px;
+    left: 52px;
+    padding: 15px 40px 15px 40px;
+    gap: 10px;
+    border: 1px 0px 0px 0px;
+
+    background: #054F8C;
+    border: 1px solid #FFFFFF;
+    font-family: poppins;
+    color: #FFFFFF;
+}
+
+.footercon {
+    height: 417px;
+    padding-top: 100px;
+    gap: 90px;
+    flex-direction: row;
+}
+
+.logofooter {
+    width: 255px;
+    height: 70px;
+
+
+}
+
+.links h3 {
+    width: 339px;
+    height: 24px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #1A1A1A;
+    margin-left: -3px;
+}
+
+.linkbox a {
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    gap: 10px;
+    border-radius: 33px;
+    opacity: 0px;
+
+
+}
+
+
+
+.links h4 {
+    width: 139px;
+    height: 36px;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    text-align: left;
+    margin-bottom: -15px;
+}
+
+.linkbox {
+    margin-left: -15px;
+}
+
+.servc {
+    width: 241px;
+    height: 189px;
+    gap: 24px;
+    opacity: 0px;
+    margin-top: 20px;
+}
+
+.servclinks {
+    width: 241px;
+    height: 129px;
+
+    opacity: 0px;
+
+}
+
+.footercon h2 {
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    text-align: left;
+    color: #054F8C;
+    width: 162px;
+    height: 36px;
+
+
+}
+
+.servclinks a {
+    width: 120px;
+    height: 27px;
+
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: left;
+    color: #707070;
+    text-decoration: none;
+
+}
+
+.servclinks a:hover {
+    color: #054F8C;
+}
+
+.coninfo {
+    width: 327px;
+    height: 195px;
+    margin-left: 70px;
+    gap: 22px;
+
+
+}
+
+.conlinks img {
+    width: 24px;
+    height: 24px;
+
+}
+
+.conlinks h4 {
+    width: 285px;
+    height: 27px;
+
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: left;
+    color: #707070;
+
+}
+
+.conlinks h4:hover {
+    color: #054F8C;
+}
+
+.conlinks a {
+    text-decoration: none;
+}
+
+.gd {
+    height: 41px;
+    background: #000000;
+    width: 100vw;
+    margin-left: -8vw;
+    padding: .5rem 3rem;
+}
+
+.gd h2 {
+    font-family: Poppins;
+    font-size: clamp(5px, 4vw, 16px);
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.build {
+    height: 901px;
+    margin-left: -8vw;
+    width: 100vw;
+    position: relative;
+
+}
+
+.build h2 {
+    width: 596px;
+    height: 72px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Poppins;
+    font-size: clamp(10px, 10vw, 48px);
+    font-weight: 600;
+    line-height: clamp(10px, 12vw, 72px);
+    text-align: left;
+    color: #FFFFFF;
+    position: absolute;
+    margin: 6vw 8vw;
+
+}
+
+.buildbg {
+    position: absolute;
+    width: 100vw;
+    height: 686px;
+}
+
+.buildcon {
+    width: 1172px !important;
+    height: 698px;
+    top: 191px;
+    left: 90px;
+    gap: 0px;
+    border: 10px solid #FFFFFF;
+    opacity: 0px;
+    background: #F2F6F7;
+    box-shadow: 8px 8px 9px 0px rgba(0, 0, 0, 0.21);
+}
+
+.buildcon img {
+    width: 565px;
+    height: 658px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.buildtxt {
+    width: 459px;
+    height: 366px;
+
+    gap: 20px;
+
+
+}
+
+.buildtxt h4 {
+    width: clamp(5px, 40vw, 261px);
+    height: 30px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Poppins;
+    font-size: clamp(5px, 4vw, 20px);
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center;
+    color: #DB9A26;
+
+}
+
+.buildtxt h2 {
+    width: clamp(10px, 65vw, 425px);
+    height: 54px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Poppins;
+    font-size: clamp(5px, 5vw, 36px);
+    font-weight: 600;
+    line-height: 54px;
+    text-align: left;
+    margin-top: 39px;
+    margin-left: 65px;
+    color: #000000;
+}
+
+
+.buildtxt h2 span {
+    color: #DB9A26;
+}
+
+.details {
+    width: 459px;
+    height: 228px;
+    gap: clamp(5px, 9vw, 64px);
+    opacity: 0px;
+    margin-top: 61px;
+    margin-left: 59px;
+}
+
+.ldet,
+.rdet {
+    width: clamp(10px, 15vw, 175px);
+    height: 228px;
+    gap: 26px;
+    opacity: 0px;
+
+}
+
+
+.ldet h5 {
+    width: 175px;
+    height: 30px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Poppins;
+    font-size: clamp(5px, 3.7vw, 20px);
+    font-weight: 600;
+    line-height: 30px;
+    text-align: left;
+    color: #000000;
+}
+
+.rdet h5 {
+    width: clamp(10px, 40vw, 233px);
+    height: 30px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Poppins;
+    font-size: clamp(5px, 3.7vw, 20px);
+    font-weight: 400;
+    line-height: 30px;
+    text-align: right;
+    color: #000000;
+}
+
+
+.pcards {
+    gap: 10px !important;
+}
+
+#bldswper {
+    gap: 190px;
+}
+
+.swiper-slide {
+    width: 369px !important;
+}
+
+.swiper-button-prev:after,
+.swiper-button-next:after {
+    content: none !important;
+}
+
+.swiper-button-next {
+    right: 30px !important;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    top: 56.5% !important;
+}
+
+
+
+.btn2 {
+    top: -62% !important;
+    left: 85%;
+    position: relative;
+}
+
+.norm,
+.gld {
+    position: absolute;
+
+}
+
+.swiper-button-next.swiper-button-disabled .gld {
+    display: none;
+
+}
+
+.swiper-button-prev.swiper-button-disabled .gld {
+    display: none;
+
+}
+
+.btn3 {
+    top: -64.5% !important;
+    left: 80%;
+    position: relative;
+}
+
+#bld {
+    width: 1172px !important;
+}
+
+#pswp {
+    margin-left: -5px;
+}
+
+.swiper-wrapper {
+    gap: 1rem;
+}
+
+@media only screen and (max-width: 1068px) {
+
+    .homecon a{
+        align-self: center;
+    }
+
+    .navbar-brand {
+        width: clamp(5px, 50vw, 246px);
+    }
+
+    #navbarSupportedContent {
+        box-shadow: 0px -4px 9px 0px rgba(0,0,0,0.21);
+    }
+    .socmed {
+        width: auto;
+        height: auto;
+        padding: 0;
+        left: 80vw;
+        top: 159px;
+    }
+
+    #swpnxt,
+    #swpprv {
+        left: auto;
+        position: absolute;
+        top: 56.5% !important;
+    }
+
+    #swpnxt {
+        right: 1.5vw !important;
+    }
+
+    #swpprv {
+        left: 6px;
+    }
+    
+    .forms{
+        justify-content: center;
+    }
+
+    .why {
+        margin-top: 25px;
+    }
+
+    .home h2,
+    .home h5 {
+        height: auto;
+    }
+
+    .home h5 {
+        width: 80vw;
+    }
+
+    .homecon {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: 900px;
+        left: 9vw;
+        gap: 1vw;
+        width: 80vw;
+    }
+
+
+    .home h5,
+    .home h2,
+    .home button {
+        position: static;
+    }
+
+    .smoke {
+        height: 295px;
+        top: 1275px;
+        left: 0;
+    }
+
+
+    .home {
+        height: 1560px;
+    }
+
+    .home h2 {
+        top: 0;
+    }
+
+    .rect {
+        display: none;
+    }
+
+    .rect2 {
+        height: 261px;
+        top: 1300px;
+    }
+
+    .phto img {
+        height: 866px;
+    }
+
+    .abcards {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        margin-top: 35px;
+    }
+
+
+    .abcon h2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .abcon h4 {
+        width: 86vw;
+        font-size: clamp(5px, 3.5vw, 18px);
+        height: auto;
+        text-align: center;
+    }
+    
+    .abcon h3{
+        margin: auto;
+    }
+
+    .about {
+        margin: auto;
+        height: 1950px;
+    }
+
+    .aboutcontainer {
+        flex-direction: column;
+        left: -12vw;
+        width: 85vw;
+    }
+
+    .phto img {
+        width: 80vw;
+    }
+
+
+    .op {
+        margin-top: 10px;
+        text-align: left !important;
+    }
+
+    #bldswper {
+        gap: 15vw;
+    }
+
+    .buildtxt {
+        width: 83%;
+        gap: 0;
+    }
+
+
+    .buildtxt h2 {
+        margin-left: 0;
+    }
+
+
+    #bld {
+        width: 84.5vw !important;
+        flex-wrap: wrap;
+        left: 7.5vw;
+        padding: 10px;
+        gap: 10px;
+
+    }
+
+    .details {
+        margin-top: 50px;
+        gap: 0;
+        justify-content: space-between;
+        margin-left: 0;
+        margin-right: auto;
+        width: 100%;
+    }
+
+    .ldet,
+    .rdet {
+        gap: 16px;
+        margin-left: 0;
+    }
+
+    .rdet {
+        margin-top: 5px;
+    }
+
+    .rdet h5 {
+        width: 178%;
+        line-height: 20px;
+    }
+
+    .buildcon {
+        height: 675px;
+    }
+
+    .buildcon img {
+        width: 100%;
+        height: 50%;
+        margin: 0;
+    }
+
+    #pswp {
+        margin-left: 0;
+    }
+
+    .mySwiper {
+        margin: 0 auto;
+        width: 369px;
+    }
+
+    .swiper-wrapper {
+        gap: 0;
+    }
+
+    .services {
+        gap: 10px;
+        height: auto;
+        margin-bottom: 90px;
+    }
+
+    .scards {
+        height: auto;
+        flex-wrap: wrap;
+        margin-left: 14%;
+        width: auto;
+        margin: auto;
+    }
+
+    .scard {
+        margin: 0 auto;
+        height: 380px;
+        gap: 10px;
+    }
+
+    .why {
+        height: auto;
+    }
+
+    .whycon {
+        margin-top: 517px;
+        justify-content: left;
+    }
+
+    .wcard h3 {
+        font-size: clamp(10px, 3.5vw, 20px);
+        width: 93vw;
+        height: auto;
+        padding-right: 0;
+    }
+    
+    .wcard {
+        height: auto;
+    }
+
+    .whytxt {
+        gap: 1rem;
+    }
+    
+    .ph1,
+    .ph3 {
+        width: 75vw;
+        height: 400px;
+        left: 10%;
+        top: 343px;
+        box-shadow: 8px 8px 9px 0px rgba(0, 0, 0, 0.21);
+    }
+    
+    .ph2 {
+        left: 17%;
+        width: 75vw;
+        height: 400px;
+        top: 303px;
+        box-shadow: 8px 8px 9px 0px rgba(0, 0, 0, 0.21);
+    }
+
+    .gd {
+        margin-top: 440px;
+        padding-top: 10px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .footercon {
+        flex-wrap: wrap;
+        padding-top: 25px;
+        gap: 50px;
+        margin-left: -6vw;
+        margin-right: -5vw;
+    }
+
+    .coninfo {
+        margin-left: 10px !important;
+    }
+    
+    .links,
+    .servc,
+    .coninfo {
+        margin: auto;
+        margin-left: 15px;
+    }
+
+    .proj {
+        height: 850px;
+        gap: 10px;
+    }
+    
+    .servc {
+        width: 322px;
+    }
+
+    .conpage {
+        height: 754px;
+    }
+
+    .contact {
+        width: 85vw;
+        height: auto;
+        top: 0;
+        left: 0;
+        margin-top: 20%;
+        padding: 30px;
+    }
+
+    .contact button {
+        padding: 10px 4px;
+    }
+
+    .textarea {
+        width: 99.5%;
+    }
+
+    #drm {
+        width: 80vw;
+        margin-left: 10vw;
+        margin-top: 60px;
+        text-align: center;
+    }
+
+    .why h4 {
+        width: 85vw;
+        font-size: clamp(5px, 7vw, 30px);
+
+    }
+
+    .gd,
+    .bgcon {
+        width: 102vw;
+    }
+
+    .wcard h2 {
+        width: 85vw;
+        height: auto;
+    }
+
+    .worker {
+        width: 95vw;
+        left: 2vw;
+        height: 710px;
+    }
+
+    .navbar-collapse {
+        background: #FFFFFF;
+        margin: 0 -8vw;
+        margin-top: 20px;
+        padding-left: 13vw;
+    }
+
+    .navbar-nav {
+        align-items: baseline;
+    }
+
+    .navbar-nav button {
+        margin-bottom: 15px;
+    }
+
+    .navb {
+        display: none;
+    }
+
+    .servc {
+        flex-basis: 200px;
+    }
+
+}
+
+@media only screen and (min-width: 855px) and (max-width:1068px) {
+
+    .textarea {
+        width: 48.5%;
+    }
+
+    .home h2 {
+        width: 80vw;
+    }
+
+
+    .ph2,
+    .ph1 {
+        height: 460px;
+    }
+
+    .ph1 {
+        top: 330px;
+    }
+
+    .ph2 {
+        top: 290px;
+    }
+}
+
+@media only screen and (min-width: 686px) and (max-width:1068px) {
+    .gd {
+        margin-top: 178px;
+    }
+}
+
+
+@media only screen and (min-width: 300px) and (max-width: 600px) {
+
+    .worker {
+        height: 420px;
+    }
+
+    #about {
+        height: 1480px;
+    }
+
+    .phto img {
+        height: 390px;
+    }
+
+    .abcon {
+        gap: 10px;
+    }
+
+    .abcon h2 {
+        height: auto;
+    }
+
+    .abcards {
+        gap: 30px;
+        margin-top: 20px;
+    }
+
+    .homecon {
+        top: 620px;
+    }
+
+    .home {
+        height: 1372px;
+    }
+
+    .smoke {
+        top: 1085px;
+    }
+
+    .rect2 {
+
+        top: 1115px;
+    }
+}
+
+@media only screen and (min-width: 750px) and (max-width:1068px) {
+
+    .homecon {
+        gap: 3vw;
+    }
+
+    .about {
+        height: 1677px;
+    }
+
+    .abcards {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .abcon {
+        gap: 15px;
+    }
+
+}
+
+@media only screen and (max-width: 400px) {
+
+    .homecon button{
+        margin-top: 20px;
+    }
+
+    .swiper-button-next img , .swiper-button-prev img{
+        width: 35px;
+        height: 35px;
+    }
+
+    .swiper-button-next {
+        right: 8px !important;
+    }
+
+    .mySwiper {
+        width: 295px;
+    }
+
+    .swiper-slide {
+        width: 295px !important;
+    }
+
+    .pcardcon h4 {
+        width: 75%;
+    }
+
+    .line {
+        width: 260px;
+    }
+
+    .abcard4 h5 {
+        font-size: 19px;
+    }
+
+    .links h3 {
+        font-size: 16px;
+    }
+
+
+    .wcardtitle {
+        width: 300px;
+    }
+}
+
+@media only screen and (min-width:1068px) {
+    .ani:hover>.ph1 {
+        display: none;
+    }
+
+    .ani:hover>.ph2 {
+        top: 347px;
+        left: 50px;
+    }
+
+    .ani:hover>.ph3 {
+        display: block;
+
+        top: 300px;
+        left: 106px;
+        position: absolute;
+        transition: .5s ease-in-out;
+    }
+
+}
